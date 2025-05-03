@@ -1,0 +1,2 @@
+
+        nodes.add(slave2);
