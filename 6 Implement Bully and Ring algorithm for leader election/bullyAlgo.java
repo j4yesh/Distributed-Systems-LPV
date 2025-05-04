@@ -34,7 +34,7 @@ public class bullyAlgo {
     public static void main(String[] args) {
         List<Integer> processes = Arrays.asList(1, 2, 3, 4, 5);
         bullyAlgo bully = new bullyAlgo(processes, 5);
-        bully.startElection(2);
+        bully.startElection(5);
     }
 
 }

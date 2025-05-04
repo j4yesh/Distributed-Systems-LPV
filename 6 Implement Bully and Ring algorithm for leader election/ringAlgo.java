@@ -24,6 +24,8 @@ public class ringAlgo {
         int newCoordinator = Collections.max(electionMessage);
         coordinator = newCoordinator;
         System.out.println("Process " + newCoordinator + " becomes the new coordinator.");
+
+        // transmit this message to each node
     }
 
     public static void main(String[] args) {
